@@ -7,4 +7,5 @@ No Javascript. *Solo para propositos del que quiera aprender lo básico de PHP*.
 
 #### Cfg
 
-Debes crear tu DB y cargar tu url del server o dns que puedas utilizar en *config.php*
+Debes crear tu DB y cargar tu url del server o dns que puedas utilizar en *config.php* 
+y configurar la direccion de tu DB
