@@ -1,0 +1,35 @@
+$footer_h: 90px;
+$footer_c: rgb(129, 129, 129);
+
+.footer {
+  display: block;
+  height: $footer_h;
+  @include center();
+  margin-top: 1em;
+  background-color: rgb(46, 46, 46);
+  
+  &__copyright {
+    flex-basis: 60%;
+    height: inherit;
+    padding-left: 2em;
+    color: $footer_c;
+    font-family: $nav_font;
+    font-size: 1.3em;
+    p {
+      line-height: $footer_h;
+    }
+  }
+
+  &__socials {
+    width: 40%;
+    height: inherit;
+    @include center();
+    a {
+      height: inherit;
+      @include center();
+      padding: .7em;
+      font-size: 1.5em;
+      color: $footer_c;
+    }
+  }
+}

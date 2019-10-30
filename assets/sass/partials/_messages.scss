@@ -1,0 +1,22 @@
+/* .succesfully, 
+.error-insert {
+  width: 100%!important;
+  height: 150px!important;
+  @include center();
+  font-size: 2.5em;
+} */
+
+.succesfully,
+.error-insert,
+.login-error {
+  font-family: $title-font;
+  font-style: italic;
+}
+
+.succesfully {
+  color: rgb(0, 139, 0);
+}
+
+.error-insert, .login-error {
+  color: brown;
+}

@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: rgb(243, 243, 243);
+}
+
+.container {
+  @include container();
+  flex: 1;
+  display: inherit;
+  align-content: inherit;
+  justify-content: inherit;
+  flex-direction: inherit;
+  flex-wrap: inherit;
+  background: inherit;
+  height: inherit;
+}
+
+.succesfully,
+.error-insert,
+.login-error,
+.error-post {
+  font-family: $title-font;
+  font-style: italic;
+}
+
+.succesfully {
+  color: rgb(0, 139, 0);
+}
+
+.error-insert,
+.login-error {
+  color: brown;
+}
+
+.error-post {
+  padding-left: 1em;
+  color: brown;
+  display: inline-block;
+  font-size: 13px;
+}
